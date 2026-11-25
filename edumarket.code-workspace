@@ -1,0 +1,44 @@
+{
+  "folders": [
+    {
+      "name": "EduMarket (Root & Docker)",
+      "path": "."
+    },
+    {
+      "name": "Backend (Laravel 12)",
+      "path": "backend"
+    },
+    {
+      "name": "Frontend (Next.js 15)",
+      "path": "frontend"
+    },
+    {
+      "name": "Deploy & CI",
+      "path": "deploy"
+    },
+    {
+      "name": "Docs",
+      "path": "docs"
+    }
+  ],
+  "settings": {
+    "files.eol": "\n",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "[php]": {
+      "editor.tabSize": 4
+    },
+    "typescript.tsdk": "frontend/node_modules/typescript/lib",
+    "tailwindCSS.experimental.configFile": "frontend/tailwind.config.ts"
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-azuretools.vscode-docker",
+      "bmewburn.vscode-intelephense-client",
+      "laravel.vscode-laravel",
+      "bradlc.vscode-tailwindcss",
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode"
+    ]
+  }
+}
